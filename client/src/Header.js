@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './App.css';
-import Anshu from './pages/Company.png';
+import Sonali from './pages/Company.png';
 
 
 function Header() {
@@ -56,7 +56,7 @@ function Header() {
   return (
     <header>
       <Link to="/" className="logo">
-        <img src={Anshu} className="site-logoHeader" alt="Company Logo" />
+        <img src={Sonali} className="site-logoHeader" alt="Company Logo" />
       </Link>
      
       <nav>

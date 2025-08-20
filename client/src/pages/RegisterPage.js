@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LoginPage.css';
 import '../App.css';
-import Anshu from './Company.png';
+import Sonali from './Company.png';
 import { GoogleLogin } from '@react-oauth/google';
 
 const RegisterPage = () => {
@@ -86,7 +86,7 @@ const RegisterPage = () => {
     return (
         <div className="container">
             <div className="inner-container register-container">
-                <img src={Anshu} className="site-logo" alt="Company Logo" />
+                <img src={Sonali} className="site-logo" alt="Company Logo" />
                 <form onSubmit={handleRegisterSubmit} id="registerForm">
                     <div className="input-ele-container">
                         <label className="input-label" htmlFor="usernameInput">Username</label>
